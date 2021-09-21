@@ -12,9 +12,9 @@ namespace TddSession
       DateOfBirth = dateOfBirth;
     }
 
-    public string Name { get; }
+    public string Name { get; set; }
     public DateTime? DateOfBirth { get; set; }
-    public string Surname { get; }
+    public string Surname { get; set; }
     public bool IsVeteran { get; set; }
   }
 }
